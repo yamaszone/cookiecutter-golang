@@ -7,11 +7,11 @@
     "docker_image": "alpine:3.11",
     "docker_build_image": "golang",
     "docker_build_image_version": ["1.13-alpine3.11"],
-    "go_mod_or_dep": ["mod", "dep"],
+    "go_mod_or_dep": ["mod"],
     "use_docker": "y",
     "use_git": "y",
     "use_logrus_logging": "y",
     "use_viper_config": "y",
     "use_cobra_cmd": "y",
-    "use_ci": ["travis", "circle", "none"]
+    "use_ci": ["circle", "none"]
 }
