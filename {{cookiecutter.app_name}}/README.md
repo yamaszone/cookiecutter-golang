@@ -2,7 +2,7 @@
 
 {{cookiecutter.project_short_description}}
 
-## Getting started
+## Prerequisites
 
 This project requires Go to be installed. On OS X with Homebrew you can just run `brew install go`.
 
@@ -13,6 +13,24 @@ $ make
 $ ./bin/{{cookiecutter.app_name}}
 ```
 
-### Testing
+## Develop
+
+## Test
 
 ``make test``
+
+## Deploy and Manage
+
+### Rollout
+
+### Rollback
+
+### Upgrade
+
+### Monitors
+
+### Metrics
+
+### Logs
+
+### Troubleshooting
